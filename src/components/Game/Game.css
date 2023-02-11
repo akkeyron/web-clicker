@@ -1,0 +1,43 @@
+/* #game {
+    background: var(--color-primary-variant);
+    border-radius: 0.5rem;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+} */
+
+.container.game__container {
+    width: 100%;
+    height: 50vh;
+    border-radius: 1rem;
+    background: var(--color-bg-variant);
+}
+
+.game__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game__menu button {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+#score {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#clicker {
+    cursor: pointer;
+    width: max-content;
+}
+/* 
+#startButton {
+    margin: auto;
+} */
